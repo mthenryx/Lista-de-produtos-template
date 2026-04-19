@@ -21,7 +21,8 @@ h2 {
     margin-top: 30px;
 }
 
-.products {
+.informatica,
+.eletronicos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
@@ -44,14 +45,16 @@ h2 {
     left: 90%;
     transform: translateX(-50%); 
     height: 30px;
+    width: auto;
 }
 
 .card:hover {
     transform: scale(1.03);
 }
 
-.card img {
-    width: 100%;
+.foto {
+    width: auto;
+    height: 120px;
     border-radius: 8px;
 }
 
