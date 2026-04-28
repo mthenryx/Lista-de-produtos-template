@@ -1,6 +1,6 @@
 'use strict'
 
-import produtos from "./produtos.json" with { type: "json" }
+import { produtos } from "./produtos.js"
 
 function criarCardProduto(produto){
     const card = document.createElement("div")
